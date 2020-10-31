@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<nav id="navbar">
+    <header><h1>CSS Documentation</h1></header>
+    <ul>
+       <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+       <li><a href="#Prerequisites" class="nav-link">Prerequisites</a></li>
+       <li><a href="#Use_CSS" class="nav-link">Use CSS</a></li>
+       <li><a href="#Advantages_of_ CSS" class="nav-link">Advantages of CSS</a></li>
+       <li><a href="#Modules" class="nav-link">Modules</a></li> 
+       <li><a href="#CSS_Syntax" class="nav-link">CSS Syntax</a></li>
+       <li><a href="#Reference" class="nav-link">Reference</a></li>
+    </ul>
+
+</nav>
+
+<body>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header><h2>Introduction</h2></header>
+            <article>
+                <p><b>C</b>ascading <b>S</b>tyle <b>S</b>heets, fondly referred to as <b>CSS</b>, is a simply designed language intended to simplify the process of making web pages presentable.</p> 
+                <p>CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page.</p>
+                <p>CSS is easy to learn and understood but it provides powerful control over the presentation of an HTML document.Most commonly, CSS is combined with the markup languages HTML or XHTML.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Prerequisites">
+            <header><h2>Prerequisites</h2></header>
+            <article>
+                <p>You should learn the basics of HTML before attempting any CSS.Once you understand the fundamentals of HTML, it is recomanded that you learn further HTML and CSS at the same time, moving back and forth between the two topics. This is because HTML is far more interesting and much more fun to learn when you apply CSS, and you can't really learn CSS without knowing HTML.</p>
+                <p>Before starting this topic, you should also be familiar with using computers and using the web passively (i.e., just looking at it, consuming the content). You should have a basic work environment set up as detailed in Installing basic software and understand how to create and manage files.</p>
+                <p>The modules that can get you started are as follows:</p>
+                <ul>
+                    <li>CSS, starting with the Introduction of CSS module;</li>
+                    <li>More advanced HTML modules;</li>
+                    <li>JavaScript, and how to use it to add dinamic functionality to web pages.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Use_CSS">
+            <header><h2>Use CSS</h2></header>
+            <article>
+                <p>There are 3 ways to use CSS:</p>
+                <ol>
+                    <li>Inline CSS</li>
+                    <li>Internal CSS</li>
+                    <li>External CSS</li>
+                </ol>
+                <h4>Inline CSS</h4>
+                    <p>Ex:<code>&lt;button style="color: blue"&gt;Click Me&lt;/button&gt;</code></p>
+                <h4>Internal CSS</h4>
+                    <p>Ex:<code>
+ &lt;style&gt;
+ button { color:blue; }
+ &lt;/style&gt;
+                    </code></p>  
+                <h4>External CSS</h4>
+                    <p>In another CSS file we can have:</p>
+                        <p>Ex:<code>
+ button {color: blue; }
+                        </code> </p>
+                    <p>And then import it into HTML using the link tag:</p>
+                        <p>Ex:<code>
+&lt;link rel="stylesheet" href="styles.css"/&gt;
+                        </code> </p>
+            </article>
+        </section>
+            
+            <section class="main-section" id="Advantages_of_ CSS">
+                <header><h2>Advantages of CSS</h2></header>
+                <article>
+                    <ul>
+                        <li><b>CSS saves time :</b>You can write CSS once and reuse same sheet in multiple HTML pages.</li>
+                        <li><b>Easy Maintainence :</b>To make a global change simply change the style, and all elements in all the webpages will be updated automatically.</li> 
+                        <li><b>Search Engines :</b>CSS is considered as clean coding technique, which means search engines won’t have to struggle to “read” its content.</li>
+                        <li><b>Superior styles to HTML :</b>CSS has a much wider array of attributes than HTML, so you can give a far better look to your HTML page in comparison to HTML attributes.</li>
+                        <li><b>Offline Browsing :</b>CSS can store web applications locally with the help of offline catche.Using of this we can view offline websites.
+                        </li>
+                        <li><b>Pages load faster :</b>If you are using CSS, you do not need to write HTML tag attributes every time. Just write one CSS rule of a tag and apply it to all the occurrences of that tag. So less code means faster download times.</li>
+                        <li><b>Global web standards :</b>Now HTML attributes are being deprecated and it is being recommended to use CSS. So its a good idea to start using CSS in all the HTML pages to make them compatible to future browsers.</li>
+                    </ul>
+                </article>
+            </section>  
+        
+        <section class="main-section" id="Modules">
+            <header><h2>Modules</h2></header>
+            <article>
+                <p>This topic contains the following modules, in a suggested order for working through them. You should definitely start with the first one.</p>
+                <h4>CSS first steps</h4>
+                <p>CSS (Cascading Style Sheets) is used to style and lay out web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module provides a gentle beginning to your path towards CSS mastery with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.</p>
+                <h4>CSS building blocks</h4>
+                <p>This module carries on where CSS first steps left off — now you've gained familiarity with the language and its syntax, and got some basic experience with using it, its time to dive a bit deeper. This module looks at the cascade and inheritance, all the selector types we have available, units, sizing, styling backgrounds and borders, debugging, and lots more.</p>
+                <p>The aim here is to provide you with a toolkit for writing competent CSS and help you understand all the essential theory, before moving on to more specific disciplines like text styling and CSS layout.</p>
+                <h4>Styling text</h4>
+                <p>With the basics of the CSS language covered, the next CSS topic for you to concentrate on is styling text — one of the most common things you'll do with CSS. Here we look at text styling fundamentals, including setting font, boldness, italics, line and letter spacing, drop shadows and other text features. We round off the module by looking at applying custom fonts to your page, and styling lists and links.</p>
+                <h4>CSS layout</h4>
+                <p>At this point we've already looked at CSS fundamentals, how to style text, and how to style and manipulate the boxes that your content sits inside. Now it's time to look at how to place your boxes in the right place in relation to the viewport, and one another. We have covered the necessary prerequisites so we can now dive deep into CSS layout, looking at different display settings, modern layout tools like flexbox, CSS grid, and positioning, and some of the legacy techniques you might still want to know about.</p>
+            </article>
+        </section>  
+        
+        <section class="main-section" id="CSS_Syntax">
+            <header><h2>CSS Syntax</h2></header>
+            <article>
+                <p>A CSS comprises of style rules that are interpreted by the browser and then applied to the corresponding elements in your document.
+                    A style rule set consists of a selector and declaration block.</p>
+                <code>Selector =&gt; h1 </code><br>
+                    <code>Declaration =&gt; {color:blue;font size:12px;} 
+                </code>
+                <ul>
+                    <li>The selector points to the HTML element you want to style.</li>
+                    <li>The declaration block contains one or more declarations separated by semicolons.</li>
+                    <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+                    <p>For Example:</p>
+                    <p>- color is property and blue is value.</p>
+                    <p>- font size is property and 12px is value.</p>
+                    <li>A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.</li>
+                </ul>
+                <h4>CSS Selectors</h4>
+                <p>CSS selectors are used to “find” (or select) HTML elements based on their element name, id, class, attribute, and more.</p>
+                <ol>
+                    <li><b>THE UNIVERSAL SELECTORS :</b>Rather than selecting elements of a specific type, the universal selector quite simply matches the name of any element type</li>
+                    <p>Ex: <code>* {  
+    color: #000000;  
+} </code></p>
+                    <li><b>THE ELEMENT SELECTOR : </b>The element selector selects elements based on the element name. You can select all p elements on a page like this (in this case, all p elements will be center-aligned, with a red text color) :</li>
+                    <p>Ex: <code>p { 
+    text-align: center; 
+    color: red; 
+} </code></p>
+                    <li><b>THE DESCENDANT SELECTOR :</b>Suppose you want to apply a style rule to a particular element only when it lies inside a particular element. As given in the following example, style rule will apply to em element only when it lies inside ul tag.</li>
+                    <p>Ex: <code>ul em { 
+    color: #000000;  
+} </code></p>
+                    <li><b>THE ID SELECTOR :</b>
+                    <ul>
+                        <li>The id selector uses the id attribute of an HTML element to select a specific element.</li>
+                        <li>The id of an element should be unique within a page, so the id selector is used to select one unique element!</li>
+                        <li>To select an element with a specific id, write a hash (#) character, followed by the id of the element.</li>
+                        <li>The style rule below will be applied to the HTML element with id=”para1″:</li>
+                        <p>Ex: <code>#para1 { 
+    text-align: center; 
+    color: red; 
+} </code></p>
+                        <p>Ex: <code>#black h2 { 
+    color: #000000;  
+} </code></p>
+                    </ul></li>
+                    <li><b>THE CLASS SELECTORS :</b>
+                    <ul>
+                        <li>The class selector selects elements with a specific class attribute.</li>
+                        <li>To select elements with a specific class, write a period (.) character, followed by the name of the class.</li>
+                        <li>In the example below, all HTML elements with class=”center” will be red and center-aligned:</li>
+                        <p>Ex: <code>.center {
+    text-align: center;
+    color: red; 
+} </code></p>
+                    </ul></li>
+                </ol>
+            </article>
+        </section>
+
+        <section class="main-section" id="Reference">
+              <header><h2>Reference</h2></header>
+            <article>
+              <ul>
+                <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a></li>
+              </ul>
+            </article>
+        </section>
+                    
+            
+        
+    </main>
+
+ 
+
+    
+</body>
+</html>
